@@ -88,6 +88,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Button-primary */
