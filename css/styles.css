@@ -5,7 +5,6 @@
 /* rgba цвет  #ffffff99 */
 /* вторичый цвет фона #ffffff; */
 
-
 :root {
   --primary-text-color: #212121;
   --secondery-text-color: #757575;
@@ -79,7 +78,7 @@ body {
 }
 
 /* Неro */
-.hero{
+.hero {
   background-color: var(--bg-color2);
 }
 .hero-title {
@@ -100,14 +99,13 @@ body {
   line-height: 1.87;
   font-family: inherit;
   font-weight: 700;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .button-primary:hover,
-.button-primary:focus{
-color: var(--rgba-color);
+.button-primary:focus {
+  color: var(--rgba-color);
 }
-
 
 /* About*/
 .about-title {
@@ -127,16 +125,15 @@ color: var(--rgba-color);
 /* Work */
 .work-title {
   font-size: 36px;
-  line-height: 1,16;
+  line-height: 1, 16;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 700;
 }
 
 /* Team */
-.team{
+.team {
   background-color: var(--bg-color3);
-  
 }
 .team-title {
   font-size: 36px;
@@ -152,7 +149,6 @@ color: var(--rgba-color);
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
-  
 }
 
 .team-text {
@@ -161,7 +157,6 @@ color: var(--rgba-color);
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  
 }
 
 /* Footer */
@@ -169,7 +164,7 @@ color: var(--rgba-color);
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
-  background-color: var(--bg-color2); */
+  background-color: var(--bg-color2);
 }
 
 .footer-logo {
@@ -203,7 +198,7 @@ color: var(--rgba-color);
 
 /* Button */
 
-.button-blue{
+.button-blue {
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -212,15 +207,16 @@ color: var(--rgba-color);
   text-align: center;
   letter-spacing: 0.03em;
   font-family: inherit;
-  cursor:pointer;
-}
-.button-blue:hover,
-.button-blue:focus{
-  color:var(--white-color);
-  background-color: var(--accent-color)
+  cursor: pointer;
 }
 
-.button{
+.button-blue:hover,
+.button-blue:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.button {
   color: var(--primary-text-color);
   background-color: var(--bg-color3);
   font-weight: 500;
@@ -229,28 +225,28 @@ color: var(--rgba-color);
   text-align: center;
   letter-spacing: 0.03em;
   font-family: inherit;
-  cursor:pointer;
+  cursor: pointer;
 }
 .button:hover,
-.button:focus{
-  color:var(--white-color);
-  background-color: var(--accent-color)}
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
 
-  /* Project-title */
+/* Project-title */
 
-  .project-title{
+.project-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  }
+}
 
-  /* Project-text */
-.project-text{
+/* Project-text */
+.project-text {
   color: var(--secondery-text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
 }
