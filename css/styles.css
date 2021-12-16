@@ -122,7 +122,6 @@ color: var(--rgba-color);
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
-  font-weight: 400;
 }
 
 /* Work */
@@ -160,7 +159,6 @@ color: var(--rgba-color);
   color: var(--secondery-text-color);
   font-size: 16px;
   line-height: 1.18;
-  font-weight: 400;
   text-align: center;
   letter-spacing: 0.03em;
   
@@ -180,6 +178,7 @@ color: var(--rgba-color);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  font-weight: 700;
 }
 
 .accent {
@@ -250,7 +249,6 @@ color: var(--rgba-color);
   /* Project-text */
 .project-text{
   color: var(--secondery-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
