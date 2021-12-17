@@ -14,6 +14,7 @@
   --bg-color1: #ffffff;
   --bg-color3: #f5f4fa;
   --rgba-color: rgba(255, 255, 255, 0.6);
+  --btn-hover-color: #188ce8;
 }
 
 /* Index.html */
@@ -105,7 +106,7 @@ body {
 
 .button-primary:hover,
 .button-primary:focus {
-  color: var(--rgba-color);
+  background-color: var(--btn-hover-color);
 }
 
 /* About*/
@@ -114,6 +115,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .about-text {
@@ -171,6 +173,7 @@ body {
 .footer-logo {
   color: var(--white-color);
   font-family: 'Raleway', sans-serif;
+  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   font-weight: 700;
